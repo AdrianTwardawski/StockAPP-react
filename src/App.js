@@ -18,8 +18,8 @@ function App() {
               const content = await response.json();
 
               setEmail(content.email);
-          }
-      )();
+            }
+            )();
   });
 
 
